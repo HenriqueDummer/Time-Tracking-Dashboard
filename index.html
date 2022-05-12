@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+
+  <main>
+    <div class="main_container">
+
+      <div class="period">
+        <div class="profile">
+          <div class="profile_content">
+            <img src="images/image-jeremy.png" alt="">
+            <div class="profile_text">
+              <span>Report for</span>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+        </div>
+          <div class="links">
+          <a class="period_link white_color 0" href="#">Daily</a>
+          <a class="period_link blue_color 1" href="#">Weekly</a>
+          <a class="period_link blue_color 2" href="#">Monthly</a>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="flex">
+          <div class="card_container bg_orange">
+            <div class="card_background">
+              <img src="images/icon-work.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3>Work</h3>
+              <div id="0" class="time">
+                <h2> <span id="0" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="0" class="previous_time"></span></p>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_container bg_cyan">
+            <div class="card_background">
+              <img src="images/icon-play.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3 id="Play">Play</h3>
+              <div id="1" class="time">
+                <h2><span id="1" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="1" class="previous_time"></span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="card_container bg_red">
+            <div class="card_background">
+              <img src="images/icon-study.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3 id="Study">Study</h3>
+              <div id="2" class="time">
+                <h2><span id="2" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="2" class="previous_time"></span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="card_container bg_green">
+            <div class="card_background">
+              <img src="images/icon-exercise.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3 id="Exercise">Exercise</h3>
+              <div id="3" class="time">
+                <h2><span id="3" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="3" class="previous_time"></span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="card_container bg_purple">
+            <div class="card_background">
+              <img src="images/icon-social.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3 id="Social">Social</h3>
+              <div id="4" class="time">
+                <h2><span id="4" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="4" class="previous_time"></span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="card_container bg_yellow">
+            <div class="card_background">
+              <img src="images/icon-self-care.svg" alt="">
+            </div>
+            <div class="card">
+              <div class="card_content">
+              <button><img src="images/icon-ellipsis.svg"></button>
+              <h3 id="Sef Care">Self Care</h3>
+              <div id="5" class="time">
+                <h2><span id="5" class="hours"></span>hrs</h2>
+                <p><span class="previous_period"></span> - <span id="5" class="previous_time"></span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
